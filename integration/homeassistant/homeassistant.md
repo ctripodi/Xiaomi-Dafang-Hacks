@@ -17,8 +17,8 @@ Alternatively, you can use the camera's CGI endpoint to serve a single picture. 
 ```yaml
   - platform: generic
     name: DaFang3
-    username: root
-    password: ismart12
+    username: 'root'
+    password: 'ismart12'
     authentication: basic
     still_image_url: https://dafang/cgi-bin/currentpic.cgi
     verify_ssl: false
